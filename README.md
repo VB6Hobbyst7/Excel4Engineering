@@ -10,7 +10,7 @@ For Engineer: **Excel VBA is A Sharp Programming Tool at Hands**
 
 ![VBARankine81](./img/VBARankine81.jpg)
 
-## 2 [Monitoring Industrial Procss](./MonotoringWithExcel)
+## 2 [Monitoring Industrial Procss](./MonitoringWithExcel)
 
 ![MonitoringWithExcel](./MonitoringWithExcel/img/DemoExcel.jpg)
 
