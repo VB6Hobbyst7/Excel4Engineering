@@ -17,3 +17,14 @@ For Engineer: **Excel VBA is A Sharp Programming Tool at Hands**
 ## [The Programming Guide of Excel VBA](./ExcelVBA.md)
 
 ![VBA](./img/vba.jpg)
+
+## Reference
+
+* [Language reference for Visual Basic for Applications (VBA)](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
+
+* [Excel VBA reference](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
+
+* [Excel add-in tutorial](https://docs.microsoft.com/en-us/office/dev/add-ins/tutorials/excel-tutorial)
+
+* [Excel JavaScript API]( https://docs.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview?view=office-js)
+
