@@ -6,11 +6,11 @@ Learning **Excel VBA** will enable you to do a lot more with the software than y
 
 For Engineer: **Excel VBA is A Sharp Programming Tool at Hands** 
 
-## 1 [Analysizing the Ideal Rankine Cycle with MS Excel](./VBARankine)
+## 1 [Analysizing the Ideal Rankine Cycle](./VBARankine)
 
 ![VBARankine81](./img/VBARankine81.jpg)
 
-## 2 [Monitoring Industrial Procss With MS Excel](./MonotoringWithExcel)
+## 2 [Monitoring Industrial Procss](./MonotoringWithExcel)
 
 ![MonitoringWithExcel](./MonitoringWithExcel/img/DemoExcel.jpg)
 
