@@ -1,6 +1,6 @@
-# Rankine Cycle with Excel VBA
+# Analysizing the Ideal Rankine Cycle with MS Excel
 
-   Programming Rankine Cycle simulator with Excel VBA
+Programming the Rankine Cycle simulator with Excel VBA
 
 ## Dependences
 
