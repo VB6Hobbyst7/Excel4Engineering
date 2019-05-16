@@ -4,15 +4,13 @@
 
 ## 1 软件环境
 
-软件环境由：操作系统、办公软件、Python及其软件包、Redis数据库组成。
-
 * 操作系统：Windows10 64位；
 
 * 办公软件：Microsoft Excel2016 64位；
 
 * Python及其软件包
 
-    * Python：Python3.5 64位
+    * Python：Python3.* 64位
 　
     * Python Packages：
 
@@ -22,7 +20,7 @@
 
          * Xlrd：读写Excel文件
 　　　
-* Redis：内存数据库，用于为Excel提供数据服务。
+* Redis on Windows：内存数据库，用于为Excel提供数据服务。(https://github.com/microsoftarchive/redis/releases)
 
 ## 2 监视软件
 
@@ -49,54 +47,54 @@ Redis官方不提供Windows版本,可使用微软技术开源组开发维护Wind
 * Pywin32(Python for Windows (pywin32) Extensions): 
 
 ```bash
->pip install pywin32
+>python -m pip install pywin32
 ```
-  then,for using pywin32 to register the COM objects,you must run:
+
+then,for using pywin32 to register the COM objects,you must run:
 
 ```bash
->python Scripts/pywin32_postinstall.py -install
+>python C:\Python37\Scripts\pywin32_postinstall.py -install
 ```
   
 * Xlrd
 
 ```bash  
->pip install xlrd
+>python -m pip install xlrd
 ```
 * Pyredis
 
 ```bash    
->pip install redis    
+>python -m pip install redis==2.10.5    
 ```
 
-## 4 Running Demo 
+## 4 初始化示例系统数据服务
 
-示例系统运行的3个步骤：
-
-### 4.1 初始化运行数据服务
+在PyDataSrc目录种打开终端，然后：
    
-#### 4.1.1 注册Redis数据交互COM组件(只需注册一次)
+### 4.1 注册Redis数据交互COM组件(只需注册一次)
 
 ```bash
 >python redis_com.py
 ```
 
-#### 4.1.2 在Redis中建立点表(Redis默认安装提供数据持久化，只需运行一次)
+### 4.2 在Redis中建立点表(Redis默认安装提供数据持久化，只需运行一次)
 
 ```bash
 >python TagDef2Redis.py
 ```
+## 5 运行示例 
 
-### 4.2 运行数据仿真
+### 5.1 运行数据仿真
    
-发送运行数据到Redis: 
+在PyDataSrc目录种打开终端，然后，运行下面脚本，发送
 
 ```bash 
 >python PutData2RedisThread_U2.py
 ```
 
-从unit2_tag.xlsx提取运行数据，发送到Redis，仿真运行数据
+从unit2_tag.xlsx提取运行数据，发送仿真运行数据到Redis:
 
-### 4.3 在线监视
+### 5.3 Excel在线监视
 
 启动在线监视工作簿：demo_cyd_cells_time.xlsm / demo_cyd_var_time.xlsm
 
